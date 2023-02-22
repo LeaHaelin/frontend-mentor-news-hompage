@@ -14,4 +14,10 @@
   padding: 28px 16px;
   border: 1px solid palevioletred;
   position: relative;
+  font-family: inter;
+}
+
+@font-face {
+  font-family: inter;
+  src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }/*# sourceMappingURL=app.css.map */

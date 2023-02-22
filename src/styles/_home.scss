@@ -1,0 +1,40 @@
+.home {
+    border: 1px solid red;
+}
+
+.home__header {
+    width: 344px;
+    height: 300px;
+}
+
+.home__contents {
+    border: 1px solid teal;
+    text-align: left;
+}
+
+.home__contents--title {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.home__contents--text {
+    font-weight: 400;
+    font-size: 15px;
+    color: #5E607A;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+.home__contents--btn {
+    width: 185px;
+    height: 48px;
+    outline: none;
+    border: none;
+    background-color: #F15D51;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFDFA;
+    letter-spacing: 4.38px;
+    margin-top: 24px;
+}
