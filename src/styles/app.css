@@ -1,0 +1,17 @@
+@import url(./_navbar.scss);
+@import url(./_home.scss);
+@import url(./_new.scss);
+@import url(./_popular.scss);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 28px 16px;
+  border: 1px solid palevioletred;
+  position: relative;
+}/*# sourceMappingURL=app.css.map */
