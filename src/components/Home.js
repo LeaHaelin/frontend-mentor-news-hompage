@@ -1,11 +1,13 @@
 import React from 'react';
-import homeImg from '../assets/images/image-web-3-mobile.jpg';
+import homeMobile from '../assets/images/image-web-3-mobile.jpg';
+import homeDesktop from '../assets/images/image-web-3-desktop.jpg';
 
 export const Home = () => {
     return (
         <div className='home'>
             <picture>
-                <img className='home__header' src={homeImg} alt="" />
+                <source media="(min-width:700px)" srcSet={homeDesktop} />
+                <img className='home__header' src={homeMobile} alt="" />
             </picture>
             <section className="home__contents">
                 <h1 className="home__contents--title">The Bright Future of Web 3.0?</h1>

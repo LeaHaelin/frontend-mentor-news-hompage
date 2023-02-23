@@ -1,14 +1,13 @@
 .home {
-    border: 1px solid red;
+    text-align: center;
 }
 
 .home__header {
-    width: 344px;
-    height: 300px;
+    max-width: 100%;
+    min-height: 300px;
 }
 
 .home__contents {
-    border: 1px solid teal;
     text-align: left;
 }
 
@@ -37,4 +36,42 @@
     color: #FFFDFA;
     letter-spacing: 4.38px;
     margin-top: 24px;
+}
+
+.home__contents--btn:hover {
+    cursor: pointer;
+    background-color: #00001A;
+    transition: ease-in, 0.3s;
+}
+
+@media(min-width: 1440px) {
+    .home {
+        grid-area: home;
+        min-width: 730px;
+        margin-right: 30px;
+    }
+
+    .home__contents {
+        margin-top: 28px;
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: 0.6fr, 0.4fr;
+        grid-template-areas:
+            "title txt"
+            "title btn";
+    }
+
+    .home__contents--title {
+        grid-area: title;
+        margin-right: 30px;
+    }
+
+    .home__contents--text {
+        grid-area: txt;
+        margin: 0;
+    }
+
+    .home__contents--btn {
+        grid-area: btn;
+    }
 }
