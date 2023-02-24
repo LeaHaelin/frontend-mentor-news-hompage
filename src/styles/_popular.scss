@@ -50,6 +50,7 @@
         flex-direction: row;
         justify-content: space-between;
         overflow: scroll;
+        overflow-y: hidden;
     }
 
     .popular__content {

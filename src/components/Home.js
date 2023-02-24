@@ -7,7 +7,7 @@ export const Home = () => {
         <div className='home'>
             <picture>
                 <source media="(min-width:700px)" srcSet={homeDesktop} />
-                <img className='home__header' src={homeMobile} alt="" />
+                <img className='home__header' src={homeMobile} alt="block" />
             </picture>
             <section className="home__contents">
                 <h1 className="home__contents--title">The Bright Future of Web 3.0?</h1>
