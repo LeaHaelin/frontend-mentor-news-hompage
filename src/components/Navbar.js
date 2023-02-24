@@ -15,6 +15,7 @@ export const Navbar = () => {
             <a href="#"><img className='navbar__logo' src={logo} alt="logo" /></a>
             <img className='navbar__menu--open' src={iconMenuOpen} alt="" onClick={menuToggleHandler} />
             <div className={toggle ? 'navbar__menu active-true' : 'navbar__menu'} >
+                <div className='navbar__menu--modal'>helllooos</div>
                 <img className='navbar__menu--close' src={iconMenuClose} alt="close menu" onClick={menuToggleHandler} />
                 <ul className='navbar__items'>
                     <li className='navbar__item'><a className='navbar__item--a' href="#">home</a></li>
